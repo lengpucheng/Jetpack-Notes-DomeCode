@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/OneFragment"
+        android:icon="@drawable/ic_insert_one"
+        android:title="ONE" />
+    <item
+        android:id="@+id/TwoFragment"
+        android:icon="@drawable/ic_language_two"
+        android:title="TWO" />
+    <item
+        android:id="@+id/ThreeFragment"
+        android:icon="@drawable/ic_local_three"
+        android:title="THREE" />
+</menu>

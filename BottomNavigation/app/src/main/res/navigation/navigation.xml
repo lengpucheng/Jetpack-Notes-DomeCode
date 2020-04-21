@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/OneFragment">
+
+    <fragment
+        android:id="@+id/OneFragment"
+        android:name="cn.hll520.wtu.bottomnavigation.OneFragment"
+        android:label="第一个"
+        tools:layout="@layout/one_fragment" />
+    <fragment
+        android:id="@+id/TwoFragment"
+        android:name="cn.hll520.wtu.bottomnavigation.TwoFragment"
+        android:label="第二个"
+        tools:layout="@layout/two_fragment" />
+    <fragment
+        android:id="@+id/ThreeFragment"
+        android:name="cn.hll520.wtu.bottomnavigation.ThreeFragment"
+        android:label="第三个"
+        tools:layout="@layout/three_fragment" />
+</navigation>
